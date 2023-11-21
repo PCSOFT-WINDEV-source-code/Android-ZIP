@@ -1,0 +1,836 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_SMARTPHONE_MAIN
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_SMARTPHONE_MAIN
+ identifier : 0x286e31110b66c220
+ internal_properties : CAAAAAgAAABD3vm9hv/Pfj5KUQeaF7pC1Pr51ipAQXoOQTb5Rbv0SshJ5prhCS9PpQtodF6aOOtsKlj9z1AB1P00slc/gvx/KzwXZcbPbjrfpVOFfUsRJADxv2UKhcVtRtTxik8gxK6c8d/q3jiRwUD/MMJ9RRltY9cwWkLoArKR8/KGxWgp8Zwj8sqAZE3oCstMvPkFSi2rrunn9sEbAzUJ9CEMmBQqBhBm8HjCPI+vBjcEziVOOX4uZs6PX7kbpSjNGvN8zeB3XRZ5PAJm4gVbyq1XPR2QDh10r3W/65Qecus6cmuq8oCnEibDycUIkWfl0FOFONyVI5xOYNHg37MBCc0zdnku7jBvrjVxZzeTlxvgmF0CvhvYobdkn9YVGQpHDscvq064VbKKA0JOwpje4NFqEZrAXkEgcE+gkOWdLbtpYMZr6RW6yTGiAMivJYJVZF26z2BIyx8TID358Nm0tevWd9jTD0WH1EFKNhH++LovuM8r6RmxEyz/rJYmI4gjkoE7AlqyPsue4SXf6rGQtU7S6sIM9PxWdhJRgDlaD890R8rtv/RnmJTRE0A+A1jQQHgvYpsfh1itj3mCsZJVx3LRQm9bQfW7rGM8VN7+3LTDOpI1sxPBp0ewhcV8BCm1QxYp4BmTT91FS0OFiTQtbUpAY2GMyZ+kdGvyg9BxEpw+YcpPV2kuoBViVEShHt3tMz+t9T7qYCg3jRPv9fnvgSKhAAKGGnUVUutC+UTVYGMQnROd6qp0fGuG2EsCmUTA
+ properties :
+  width : 320
+  height : 407
+  heightMin : 480
+ controls :
+  -
+    name : LOOP_FILES
+    identifier : 0x286e31110b69c220
+    internal_properties : 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
+    properties :
+     x : 2
+     y : 33
+     width : 316
+     height : 372
+    controls :
+     -
+       name : IMG_ELEMENT
+       identifier : 0x286e31110b6fc220
+       internal_properties : CAAAAAgAAADIJiPYhPq+7RzsG2E3ZM4OOWV73rWRSvODSudxWaIcvpeGTSiP3UeN2zKZ++48gbmQ2EUS5l4mwB0CFo2gBfYXpgVrgmz4U1mec23LfpQw8+/Ctc+FN15gvNXHPCKcy4nb3Vc6RpYkxRj6BN8Bm2TpX5x7g4bhF1cpMF3WWcDZ4PpDBX58g23zPZN7JPqNEsU8ma0UWZVdIpwgU4TfbJ4At35LEyPjztvI8dnSZTnRNyAwX+jfADqUUHM4vlSbt/xNCrXKWL9+YkR2oowxdlomhyh2rtCojLaZG+V6K2JyPIff8VXWgQsoYVpNFaQnhNMVEY6xjf1oNc2VL3mdnbG6IhpUnBBFgiwhYbeAtDzRoapGNssd4/B78GXk2u7XFw2qWmHo2q2wrsTTjhM/EHyRVp0D0u8YumqQp6IRs4jSWuJdGwYU/fdrjpxnEp49DEXskvGC5a9Do3DiKIpX4MaGsTcz7CKqxNWQa7ieIRAcJwBJowkveonxty/uXOvuPHh+ZZZKvS0bEHlK5JqFZHJHVmEWFVHxhFAhAeFGMLICemP9I+kf0KIFG/c3f084uf8R7MsmuF/3kPd7sSsehjdcrbi8DpL3dY831Ya0Gt9V30dmjZRS2VM6h3d4BvOVvP/jA/ybwQpYptUS6R9IRiLIlt4vn7yijr8xCGNhxaKNIasROOcd54+Q4RPyxN2gnjsPxzOHY7Mbg/DO8TJNvNKNlYbMC5OI8bXVhNiraydNr7Hzoi7vkmosYc0LuI5Kt1/dUM6wr1oeMiAdZaOrRQ297U+FMmQh1kbat4WroMadsIxVJY7Q1+QiyMt8WyT8q/YcRT24hSJdjCK/45/L
+       properties :
+        x : 2
+        y : 3
+        width : 36
+        height : 36
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : STC_ELEMENT_NAME
+       identifier : 0x286e31110b70c220
+       internal_properties : CAAAAAgAAABU5sz3Oo8z4+gp04aefsSGzzYvOyy5M0GCoXtG+UCD0HoCCXoI0APo4+yyoDvYlL26ux/cFIRw6uDzaAUODFtteM+x1S83xYHPMNOpGTL6urUt3iD+ELiEHcxxjN5psBKKfYM3Oh/tJygkDsWS/JC6y8Uxl2OHxhTkFQNUJ5B5Ri401OJw+JvN1uP/o6wNCxJp/xgOdI830+tRp7KfrUls0xN2stpsXxzw3Wmkq5ahU34SugpLaSv7Gj3WYNKIRcPbm58PNACLcF2zajdjeL19j8BPr3VSfBLm5Bwmb4JkTRkkh3tjHAQS3DLsn2FM+fPUEamaIyQ1tZBaHcHzVscW5yPaPEghSTwTCSf6JGVHM6wqL7u22ZIQCJHypQq05Gqvb8f3IF6uwyJviIvKGpmAbOlStak085xXf7dq2gBsZSkjbDHqjha6b+HRiseNm/dYcn7RueWmPjHJOerpRrHFNlvX
+       properties :
+        x : 40
+        y : 3
+        width : 174
+        height : 36
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+     -
+       name : STA_INFO
+       identifier : 0x286e31110b71c220
+       internal_properties : CAAAAAgAAAB9ZJppliyO5KSgH94P7XzVGXKqMYZEwa1zZz39qB1yg496c/bfopE0Bks8BVCPczwhFpmGgjIkOEiDvdJF0ZkmqxmQoKbrUCfo2ISWgThIB9L8IRgoCvRkvrbbSOTAEP1OHT9n6unDfsHgAOJT14TnIWuSIRDSb21cnk7wOYp/WY1/5EXfaIhZs85yH1JrEFNS9SEEoK4+oCW3KYaAPj2WDs2CDKnQbUrs0Jd9J4afa1jteC+QBwbeUmnDCYYzjZkUbwG4Ki9BpHXQP5LL59UX4vjX041+Jf/gSNZ/DNNjZhh3KAG4bRbccRlcai9dh/4QqQ6N0zZePNNOPe8rlZiTM82gnZNR6uN5wf+6vdq+FdSrvypCfQyD7XAtYQOV22TNQilKt0uMmYwsYHa30qp3cP/Z9XKXFm67xZVrymqD/ma6iPC4DCiuwLPCVc2gZpG9xwPMDoEiRA5ZrmifDQ2miOFGGhaz+MaURfNh3Mc=
+       properties :
+        x : 210
+        y : 3
+        width : 83
+        height : 36
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+    columns :
+     -
+       name : ATT_ICON
+       identifier : 0x286e31110b6ac220
+       internal_properties : CAAAAAgAAAChUBDpn9rf46qogmw2Fof1kiRASXqLcNnU4/JfGBnbvLo80W8TqN6UPKrq9IpFPUQj4LvGlY4nAqcOpXOCqm5wgyHbz4bM3DwrLSoHJRkr8tUEkP+pV0ibkaz1rG2ar0h//DittSv7CMHoFZK3ChNIBd/ZR3JvBwGPHDtAnYsuLQ==
+       type : 3
+       content :
+        identifier : 0x2557a26c03e20488
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_CAPTION
+       identifier : 0x286e31110b6bc220
+       internal_properties : CAAAAAgAAACfF6lZyhT14EfnuzoX5droFmHMBa9n9YS6+yMW1vlM2XVWJIUT0jm5hzErWWAIXNrYm4nhB+7bNVadJj/+gakQDYyQhpfy2D0fKak+7Eu2ijGY9pFdJF9vSSxGmQS2wip5pqwxAeo8hBl4aNlgJ2Dw+esRRyiA7ierZowEbpG7XHV+45xQaw==
+       type : 3
+       content :
+        identifier : 0x2557a26c03e40488
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_FULLPATH
+       identifier : 0x286e31110b6cc220
+       internal_properties : CAAAAAgAAADQItRy8vDSkDvG6rfS6NvVd8nVbmS9r/2666xmHv3IxZkkMRhi+5j/mu2P/A5V6jx4dI0V8pNqgZqnGlMZKdeZ8wiZfvWcezxI0bErItj+Q4LmJYP1Wn6iXIpE6MKJuhGq6om7WyuYdmw=
+       type : 3
+       content :
+        identifier : 0x2557a26c03e60488
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_TYPE
+       identifier : 0x286e31110b6dc220
+       internal_properties : CAAAAAgAAABFp0n3f39F/yAhdRy/RQaG9LZS6+EoMnjHRrt+UO1opylFE9Qiv1APOrmn0GapYjCQHKFxAIVQ07xlyPnHC/G/lbbPRDNOy1HdRKQ+xXWDxgdjqg543/kf2TfxOx0uH/SP1/423qgb++E=
+       type : 3
+       content :
+        identifier : 0x2557a26c03e80488
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_INFO
+       identifier : 0x286e31110b6ec220
+       internal_properties : CAAAAAgAAABcK1vJfeOJxqSoyaLoiuF+qst0Z7B3z4a5XniatG+cgnGXblfBKy/TE8RDnTIvjPmhmS2bDY2RQAMEWaF+MbGULP5bMQuWr71ZNqkMSdLX/dIlEDWig7DapLt6Q6fBpXMEHYjXbAlVs6YRzlRAa1xMF+1OoBgptJlbtZcor8g=
+       type : 3
+       content :
+        identifier : 0x2557a26c03ea0488
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         sElement is string = ATT_FULLPATH
+         
+         Trace("Selected element: [" + ATT_TYPE + "]; " + sElement)
+         
+         // If it's a folder
+         IF ATT_TYPE = frDirectory THEN
+         	
+         	// Closes the previous archive if necessary
+         	IF ARCHIVE_OPENED THEN
+         		zipClose("zipArchive")
+         		DeleteAll(ARCHIVE_FILES)
+         		ARCHIVE_CURRENT 	= ""
+         		ARCHIVE_OPENED 	= False
+         	END
+         	
+         	// Lists the elements found in the selected folder
+         	ListElements(sElement)
+         	
+         	
+         	// If it is a ZIP archive
+         ELSE IF ATT_TYPE = frFile THEN
+         	
+         	// Closes the previous archive if necessary
+         	IF ARCHIVE_OPENED THEN
+         		zipClose("zipArchive")
+         		DeleteAll(ARCHIVE_FILES)
+         		ARCHIVE_CURRENT 	= ""
+         		ARCHIVE_OPENED 	= False
+         	END
+         	
+         	// Load the archive
+         	zipOpen("zipArchive", sElement)
+         	ARCHIVE_CURRENT = sElement
+         	ARCHIVE_OPENED = True
+         	
+         	// Lists the elements found in the archive
+         	ListElements("", "zipArchive")	
+         	
+         	// If it is a folder in the archive
+         ELSE IF ATT_TYPE = frZipDirectory THEN
+         	
+         	// Lists the elements found in the archive
+         	ListElements(sElement, "zipArchive")	
+         	
+         	// If it is a file in the archive
+         ELSE IF ATT_TYPE = frZipFile THEN
+         	
+         	// No action
+         END
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+      -
+        code : |1-
+         
+         Trace("Display the popup menu")
+         
+         // If it is not an archive or an element found in an archive
+         IF NOT ATT_TYPE IN (frFile, frZipFile, frZipDirectory) THEN
+         	// Hides the menu options: if all the menu options are invisible, the popup menu will not be enabled
+         	MENU_ARCHIVE.OPT_EXTRACT..Visible = False
+         	IF InSimulatorMode() THEN ReturnToCapture
+         ELSE
+         	// Enables the menu options
+         	MENU_ARCHIVE.OPT_EXTRACT..Visible = True
+         END
+        type : 65659
+  -
+    name : IMG_FOLDER
+    identifier : 0x286e31110b72c220
+    internal_properties : CAAAAAgAAAAjNF4lxVbNJ9H9WcQoAc1mnMsDptMTz87bFUFsyUOdnOegd09mFGR5PsNbNFinNfSJM+QMe0vVCIKBODCxQHVVMIRR02qdvtfbpcj1lvdA7dnN0SDcGh6rrr8LTBg9kJXovk+G4AX9n0ffZ4U3q/cGpwFb8Kb+ZgZPVL2vL/DpdYL9f6OYF4Ml7ooLlgVDFq99J8njjvVkNDamSd4Nj5NiEJHNIrbyZ+Nyir0e/jMaIId6+iyD+uwPuFMy4aYT9HmJCdxN3ZrR9ncTDtqRXra77svu0fqBM2vRs7POjvnFlyrE0V9ZJk2EeKK+TV/o0cdoAg+YUSWgFQIS9Zda+SaLYhziDlqj/Sk3XvYb2n6+DJvH8Mn2t2UivxaZ+bRcrxCYK05tmrf/EUcggUPecnzbIEkywd4Q1Zs7QathA86fxE7JMrKvSobhl1oozNPE3X+0FiBRmKsaXaCpxpmpuq4V18eUMahu9sv2E1tcn2wMvj7fBeW1WAyMXWNyyZJvbALv4yg5puP5ytBygS7gQTPsr0gzYXLCOHJ2ppmFppnGculw+Y/yPQkE5pMYdaq2XcAiDoHWXWDaZXTJVlxc4RXvdnYmeJJfowPr2ey3/kCgu/lLmfqpugZhQqkzjgaWyeVThgC5OvX5rx4A4F//2RuLNXCGAAIi6pK2rZ0c+0q5vlgrJcrJxU1YBf6xtG827KZ+oXJy+WXVQzyt+delDF448IRPOhRtxzZVoMs1oiYsL6EEoWc97Lxm46Ape870cfD64EvTHTqIesC4Tt94zOCiGF6Rwnvacf8XQ/A1mwPyCKafoM+6xuWTzScedNtAf6aIGez0/9h42ykqIg==
+    properties :
+     x : 2
+     y : -121
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_PARENT_FOLDER
+    identifier : 0x286e31110b73c220
+    internal_properties : CAAAAAgAAAAS9+Rxyk1KxHr8v+9tP7AbVk5QAKL0ezYc32GGVek/ZfazpZfphkZJgOV0RiKShp7yySFgL6mWjRtKoWvperEXvEeImqc3L7mPjSOAwNFNPk+FuZaBbiO9OfUDwo5rETFTHtt7cLor/mXWKVCcpqlMYO463C+LMjYzI/u8I24J/zwJCzEb/StnXO3DvfjUmJ6Gwrsb3wPXyodc1jQ4sKw5jWN1gzA23yCrHXIZZ3+YkUAQQJfTlMMObqsox231d6MSb4dugvPzv61QuZ13e3TpOfC5XYkvZuOHGRtGzai4UaHXRtRw5/qMWSPkJIKPSic//bY+8DXWIoe83issnsAr1wormJmmNNSVAbTPaY34FwIhGKtoXOaIppYDQYWc8lfuTEtRndXsIifFuNyhYK24JuARX8hVygrjtyLMXn2GLIAGgCYO0l0WAqVKEFSN0TqfVjy1kRJIbAx8QIG4SICtYdGLT4PxPGAuqd/+DKC+EFTZJXXPMT0wad0Ym3UpOOHNfm8W9zJfP+sCMt9FXviVGZ1pdOFrhRlLkmX8Y22yidmyNus7sMn6GF9YQLU2bB7iClzVAwKpnUdoqdkE9rU7biVpWilZqCdL+PP2d+edXR2LHlyGeL8VZ2xxviw4ovBmNLfW6r5GyUMIFQZpuBfdpzThacWfdGVOZET+XNvpB8wNO2hLJCxaGgKYB4yPu0nIPbAG0XcKcVTfR9KZrC6fLXjTJ6L32y27oH7K7TF7voGIadsW9I6XQEvnM/g4x8k7UO1eqYJ0WyJ4F/wFYrJ1XAcqI5kB2ExRZWOFHDHbpYS7cfW1/ljzc4+I4qVRFT1p1J9N11e6Pgv2xNM=
+    properties :
+     x : 53
+     y : -121
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_SDCARD
+    identifier : 0x286e31110b74c220
+    internal_properties : CAAAAAgAAADnYIlUCuoby+gWdc6P9aGsE0pqG6bTsoIQqzlQHtlD2CoKUJ51QKMsKtxswU+aMCy3lZChxsYscDkc/iVMwTg16in3uImR7eAV5aJt5KGvHG9oxcw1HhKKlNmRgp4LZPK6s6fbl6RnaLWr5JLxMLjKmzvJMmeLXcmFRM+S58g193wN2scfBrtKDuUXqupwD+NK/wf3RYz6S6IH2Lc/5v8hfwrU8tkOmmV1EWnrbTU1CMihZeVnIPrS7OBNp5hvfxVbs5ha+HlhxGrLyNpY5Ga0A0k9lAY2iI4Zi4PwKLm3FLHvPxtjYuRYTnzVG4Wr8dLlVO3saR2uYuiK4bgChzQL6ahzdGFJpvflzi9kz7xqpbg2zLI938XlIDZHN7BpUJ31EIc8IHs6GyRmhm7VmzUi6Wl3Z7sDnh8xRfnWHAhi0DcjKL9y1UbBudyrDogLr8Hlekiax+VDB5P7fTXU683jmZgi5cPcD6k9ZxB+6jFVcGWaPsRiz3rWPwg3qRv0ZrzlbJR7psYJvqrThXEqnp9J7+kqI2zqqgoAWw5qLFxwTCd/64y9DfT76fIxeuZVWwdcfME1765KQrbBBoDM5i5woRirjxotUL3kZC5nB+woFhHMqpZ11j8is7p/C7i5T6dGO3pV2Nd0sKaaTbTS9UrSVbMyKBw1g4eZWuYeM4rAkLsElCxFuO3SiOAiSzH1bsrCc+bmX6LaRdMDyEBsCMfK1KL9uFjWlmqtBChKJunmja2YSuKjraNCPcxGEgLuTQ1ersEern5SdZ5EcIMwiE540Quax3t1vH9QVcdbOS97eY27puHeaNg6vNFBf1DclW5RbJw/GIM=
+    properties :
+     x : 104
+     y : -121
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_SYSTEM
+    identifier : 0x286e31110b75c220
+    internal_properties : CAAAAAgAAAD6VtjhHZPmBRTaSi2ZEOIPYFhIbulGlhT7o4xSmk09UITpsrPuKfkmzp0W2Y8IImeZKxCk43Dt040lmnulyMb2+Y8Ge+O95PGc7g4TA3MvpKmjDDxxmz2b6oJ2OJWkojTs7LrtacJ1TtI/7PzHz4HXqjEKLcXgyxs1rn9G9Rtc0toLFc7fX65mB5oYzCKldXnFDDUVo3lhFgZByftR7Yr5W3J6stn85LWFxDIAe4gpw/zDYwjNP1X9h8tsVtJhmwWSivG8g/xn076vA3MiSRj0gINlcY13QhmUpSy0if9gr8Bg+HsHnHr4OHB40fSIFr0WCg3RKEooSDTWzA+Q5DRyediMjVc6XsW0RXehHCDSFMmir7c5cBZ5rPM7kULvxQoHHjH+WPViQHNf/wE+VWiE3MQDE5SQTfrRqehd2RzQhv8vIu1LQYTTEudbUxMYyGRMtWW2uAX45VazMkkO0jtZsD+C3U6Qp/sIQQ9boFBMTtFzOOwn2+CG9Zd4jzQPMUwMxzzj8Vj/S8VGBay1s7wo9t6Um3qWTHhVXMxVIehbSx7GEDxOv3F7sm2Ck8eoiERnm73U+8uOIn2FwRiWqpy2PoXJJ/RnjL3RcCgv1iNmbNhfsfk1YTKqLgAY56uhG/XUKkuqPvp2UbUkTPT4fDCRsYWQDPBfEWUaOw0qhcCC/CHdMyy9k9t06fPAZ428iDBHswSgz2rudnF8335cANoctI4lExE0jVsDg7LfF/d+KQOst6Zxl8/fmcuqI31COCH0Q3fZksgFL0cE0CsZdSiTrKPGFMVphmGha1qJWIm8lKJAOLAw24Hz+RM9LWe8SFFen1dg
+    properties :
+     x : 155
+     y : -121
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_ARCHIVE
+    identifier : 0x286e31110b76c220
+    internal_properties : CAAAAAgAAAArB2mQUti9TNObNexYV6HOIZkxra4b3cMCmIfVJ2J+sfNU1eAZRDpTa6DTbvxtm/iEjjPxLoPeyOq4x7CqlWfvDBrxGOJMGVKtkW9EvMz0mdBqa13oCvo0m11S9A040tRcbHIf+zSLQN47HnjLHx0zLjVSp8/qmblVtmlCXVM04kJribyN3Wige36KUA4BuR1NjNnjKUfH6DLF10ONhdIxU/JChHM2UhcVxIiQo6A93yx772YzLY/jt9tyXgoF62VaSnF+ObqhncKrBceaIaiccPtd6y+xjCNQIaK8SbNgz0zUuJXN6txerFT6Ddi8DuWKlqEv+nQ6Smgi+gdQIJjeOZAMX1FsxPeoYVkFROhOCffUdZ3XXvzXeiG177R9C1CzXhh4KjWiAsP3dWlCeYQQdFwbbQZCA3wZqW36pCFnL4gAI77GfrE+SZoMjErT//0lFw1wEuPah5SRsCtISK3vJlWoJ3ktNE6PbDBcp1Efg+6onWHenJHxcAbJUIvY0I3xzDnYKOGA0iwRNqWk3H8N39cxwIE/5ZNwe+V2oHFqZA8ngU05lF4ukWDrDH7hw3E4jG715qBrAWygapG1k6+7I4LyaNfE4Ri8X/0U2eDF7dmgckrYlnc5ab/RwOKSihZ9ewDXrVvHKEyPnY0XHROWNhLZlZPMfhi5TqqvwIURbTJ+oJlsLHyX3OI97BA5F0F4bP2pqlfTXYjrrrONx/nt51lEyKrTIu5mKml08E71opoLUidW6himcPYttMINWyZ7MhKqh1OWfkZXW0RWaLsQo4qJ9docL4i4clGSoVB30WGH93FxmkIyONJ87iDzkx6NToax
+    properties :
+     x : 206
+     y : -121
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_EXAMPLE
+    identifier : 0x286e31110b77c220
+    internal_properties : CAAAAAgAAAD3W9XsPoANXKPz9aRYV0nWAQmZrZ4jjTNCkMffkUQ8rw3is3qr3ugVbWr5KHbnIZ6OFInbkFVMQlzC/Yrc9wUF1uAH+txO77R3c5VWPr4iT4IISeca9Pg2hS8bWj7Ja+Uz1116OEFyR8sGpa0IlDJYMazl2tTf0BSIwJJnsjzxV+WCPE20LFnNi2a0iBqxRRFBEF1BR+Wp0lqVPWe50YKBlyZCJi1ABFGpSI6862SBU2g/A2zJk52xCxegQhqtY40eFlGIb+CnX6KzFy/qjZhMzNfFzXnbsmVAWeBo2dMwH6S0GD9cqmIcJxTwMeBgumE2OhmBAELUePy2dFes1OimMRig9Y/q0sXs5UeZkOBvMX989aUPRoxn+jkFB4StY3h/j+8M3h8+Frer0Q2upRjEJ1ZrE5SQNaL5qTQRvTDUiusrHOZO9il+SdJsJErTsXsjGvV03l9Os5BFbB98PEETwjGUW30iMUX2S5nN3gpebE8BYh4dXWoIS4lC8bLBm8qyTaZ9V4IhbZuYYwvKDntquAjiuYS8YkZ3KvoDw54h7TjgDqr41Z8pTBMY0VH2JsYRFetqHem0gM9jp354kErw+NdvXa4tUsPLdiYF6PkMRjJpf2eff2AY+CbeJQWHwS9ufOk4iAB0Fw+6MsqQjJZ7nUGcpohXF7MUTQYPBpeB3YCMfu0yZrSHvFqnbI67/4m+cod5pF3fsQxjHmcdVw3RQ+WURCLbJqqyagHwSO5hHm5PKuM2yuyCXDaNKEKV/2qn5lrmh8P6KmJHyyg2UMcMv9aJ0RqswyTkll2WRfS7tV3zY5V9hjYutGYoEiS3Z3Jhmlpt
+    properties :
+     x : 257
+     y : -121
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : STC_PATH
+    identifier : 0x286e31110b78c220
+    internal_properties : CAAAAAgAAAD/lEMNo+UJ3u1SxIm9nk2Ijeriy71OicOEwhikJelEsKSvj6B4YDe0TNYsICmxb5gyrLmc9ybXXM6wWWo8mGmdnHQwpFtZcqxleyVr26gIXiQfHXn4qGp0JFvFMmWUsZgqFqQF8Dudyq0kAFkBgEb84rVOhFJRpZxrwEyD9esGlRC/KBxQ5w12cyC+/DovoyZxEs4gFXfbrwH7On7iidcn13HgY0JK3l7KNKrw/SBxEeecSis15ODlExq2tlFtr5phxM3GlsIvI7xXABks1ecGjzXrgSnq1Jcg+Eqr2gYocNQjbmfSVvy/IGhj+96XwY1TdJLbKcXcE7A7/HeNMB5sgurGCUmel6k9gQImG0sDr65VJvkeXMTeNOHAW4qXlKLuYx+oEWPKLGAvfeM2dSgCeU4IB+jGJv2lBO4bd+8o7uu6jjmW9hfa9WVEjCHQQDVmDGeD54ERRVM/sMUyzq1U29pQwhkQ9nc=
+    properties :
+     x : 2
+     y : 2
+     width : 316
+     height : 29
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : IMG_FILE
+    identifier : 0x286e31110b79c220
+    internal_properties : CAAAAAgAAAB36sWJprMuJM8Jc3Qkm6vpZu2uQEhC7Z374+/pU7nMDSY/SC8duvN7BW0yPdwU6xARUugmqTkiby5SZsZWJhomyNQtUKcRCS9GzzMhWYGuQhmiGNx6nC1TLtWId5KiBw68Ou+EX03QgxdbeLhc801LtYdkw/64Ox93tuC4DysRqK+lS+QUYuS83Braa77HMgjxPM1Km1YkcQ8JC6isRVA0NEPv8AANDBez5gNt0/Ie9vmA8jy6n0CCfmjnd1OiFWL68bVpm5L6osXx/DkC4mgmes4nrm42LPrDWHpWD+cOKvVjLglxvBvV3ZEwzKw4dYDs/3cKeNUyxWJcXeltYNGAw+LGTNVFWt5S8kMlo2syWv/QcJF3eudw2xEciyUayFIngtiiID5widVIJbIcgRoOTiRVg5PKMKdd0lPDRzFWm32ZiI2xoIbeOX1o6QdlVAxX9HrDJZ+JAebHYmAwOwh+zqW+fTHP3BJHa5j22Tpq6bdI0Rpx0Q972SYwd9tg7ySb+j+HnXFHM0zk03kKvN25yBNkcQXYRjGZgRhmmSvtdqmgBLfDpL3KnyWu8GQgF+e7Ww4BfQCmxw8r6GCI5Fdq4lUH+75VtXamNtszw6pnhIRPVSuhcirshU/kLpB/Mdl5NmXrgB8RRrYl01RtKpjDt1myg9tB+uC9gxNN6Yv9tlRgRTHMRFiZRTzfgEiWAi+0pcjQwZM6PspeKRx59Uod/sRH0Yh69NKgGUTTQtd+AIqPYafRicb2OBsJ92y83jMRf5iacq2oSwLZXS8OUMCx5MB37ks99E6SHsshfjqBDORLrjvsdyNaBQg3Cmo=
+    properties :
+     x : 308
+     y : -121
+     width : 48
+     height : 48
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_Abandon
+    identifier : 0x286e31110b7ac220
+    internal_properties : CAAAAAgAAAAdwh6wXgwkpw8O9TgfJvCJPGMwOo/E84SBjPP58lWQ5xcRDWHiEDklLBsQs7Jt33FZ9vLD9lY7HpnwMC+x/1IJr5OK2A/4H2nFY0E0RYRi7ZP7Q5JR7fK/oExo4nJyjkRQf9FMz8AFZcq//WTYH7xsQHPTqfSmCINumzy9A8eY7KEhrPjSSaWomqlc12sWDT0zagT/UV6en3s8/RhGPWW266UtTDjJ2N0JNYuAuhXotne6YemU0Z0tRbbYleMT3D5XHUAorvRXMQl/QMNEK0L7wRs5OzG35c+1PeT9QqZBCHzfXtgaGB3dYdVOU86tMH//0jeCimT2WYmXljPn+eTVheBbWZJ5E4l0cDag6YEhFa2Y1uDtCWjdgsCPPiY+CvGcQtv4T+D9zMf5iZYr9Pu/8GUwFSuDPpwsv7DF2q91ywlvhiWXo2ZYtN8/bdwjNR0QioPr7ZSLNU250L7hiMsE7hdolH1dH+3wl+BPOqECNpefkdVAwH7ugvsjW/zoekEp0AMSTTnoSlhp1eNaH7AJe6Arkcbaa2ZP8ewad39QGjG9SuSPlNXscQM8JoQsyfzJbHy4Wz1MPBv3dVkt76nq/7OBVpqfgpwhh0bm7igocRByb3E/87uu7otHt1GyOubUuJbYCVer1SY0W+KBj9J3s1E86khm2RYr0sgEQelUDk9U+gUOnFIu6ZDPusfwLKJVvbCs2wxKO/MI922zS5USzcdqflL6HZXcCm2Ly1sSNMWGU7FGMLFAgV9CfRDOTlfFPMZ9A/7w1TBjhaF8atpEwOwy/4FQpn+nQ30o+Jl5/XhKuNKvCdqLq1ljEcQXJBKmw0lTLopTYkEbpc/3JgaEdWojNGYeEWU4CiLcfp8KUInNbGK4BjgkawcqzzfSPy7lcbR8i4gJ6L8mTQaP6ef5Q4S4/1yY0S1dwEPEMA904GPlvuTnVyTnEEWLgUm00RdelHr5IGFLkN93
+    properties :
+     x : -170
+     y : -123
+     width : 156
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         
+         IF CURRENT_DIR = "" THEN
+         	Close
+         ELSE
+         	LOOP_FILES = 1
+         	ExecuteProcess(LOOP_FILES, trtSelection)
+         END
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x286e31110b7dc220
+  internal_properties : CAAAAAgAAACX2eaQzwAgQgE7TceFFkYDwZU9jritn0SO7wPvNHYTHYOsy9gQv87ME4Wi/XmXyXiTo6vQmf4ouHlh8hN3VqgSdUIlRGdgteErrpfUc4zvaWgZE1kPMuoCvY2irAMB7ghLyDfahYnVitVi7LBM6bmu2IFwNA95lH9vPiyS9rrqDkyJmocaL3tEh7g8iHSoxSEFri6c01uF5WNmrqcpRissnF5n2YvFwmv6EO62Ef1rbXJFAPv6wCNo6wkS25irf1JdbBH14cZSXMposOJoHUVfkrfxwnYo9FxIxCwiYxlWhjQiTKEaAJzk3rMNE3qtTS0kSyLmSF9gawNOJfvvzNwJMcC4F7Rpn5YhVcdnk5BHJtH2BQG/CG4LDn+OSvIup9M67ip/d0JC5OvNkIwKVjCi2LwGIXfJCg==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2f19535d008d03ca
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ popup_menus :
+  -
+    name : MENU_ARCHIVE
+    identifier : 0x286e31110b7bc220
+    internal_properties : CAAAAAgAAADUGCACbhqgfhFrNgWEqbKjTZjt70NEEnl/9fUN7wwNLx7/AJbnbw+Rmw86py6hDxi/4+Aqt04zHSGtDlc9loc3TnUU8HthDi2XEt/1eMi2mNDUBetm/6ExyfF7Z0SS5rtDNVVcIMIJSzhywP3k6p3LRIQXtSb24vhfpVIko5hRV4ynAccaVBbIr/sdjSjFeBV4Ftgvy6RQMcm1hHYeqD60CU2Qgif/Bx5X2SuNArRcC406KtUKcG9QROBvuo5ZxM9J2aKTQTLwlPSV2fhk0iDSL6QvoVeLaBzZxzRYHBnaLjqteC9hzwJi7O2JklXisoUmVwtGC9xdQicxCPJH0yzMu7Ccl0GgFkh2DNqU0TlOT+1N8acRHq2DSPHNZUhW8nPlnq6QOTyydlw=
+    options :
+     -
+       name : OPT_EXTRACT
+       identifier : 0x286e31110b7cc220
+       internal_properties : CAAAAAgAAAC04GaESLkCE94b6zZPCPQ0r5+ahIGh2qDsuyotdstMqnw2lASPx14NmpcCAKstRp+B6vI9Lz54hifHRS2zQky15+1/C1dg8kvG5DJy9tfeRRSrvs7/M8RINXC2m07WgfHZPxg8CXmhDBLRg0JJr9hlXA/0KBWTH2rYSbP2UDZqgieKC3sVMf+HnCN08fi5Ca1aieALvmXkZre0tnHRIHzC4rfIZfMZHZb3WQd/hXbrVjIdliG9ttIk64IK/xriUYRl7lUKsBWJL04Hf6lju2rEhR+oAX0FLKBq9fd6lqt9NDLd1NM4zjTecdKNhBkFTL9H3NluMzGSIKVKj5e2lLOfYtfm6TN/imcf0O9DgR24ANXn4fgQMXdl9Zx8YQA+szbYHAJaUZh32icFh8Ut
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            OpenMobileWindow(WIN_SMARTPHONE_DIRPICKER, "Extract From...")
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar :
+  internal_properties : CAAAAAgAAAAMM7DiOf3LTTeKWrSzoZGkkMQ7XlboN8CULNpCPcpZvwGeczFGuHt/eWkebRTvvcQyvnZRTkgPC6te7EFk9zu1zKhrtdTNw1k1aYEx+iVt8nYfZ1rUV9q/lMVN
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      
+      CURRENT_DIR			is string
+      ARCHIVE_OPENED 	is boolean
+      ARCHIVE_CURRENT 	is string
+      ARCHIVE_FILES	is array of strings
+      EXTRACTIONDIR		is string
+   -
+     code : |1-
+      
+      // Lists the folders and the available ZIP files
+      ListElements("")
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      IF MyChildWindow..Name = "WIN_SMARTPHONE_DIRPICKER" THEN
+      	
+      	// Return from the window for directory selection
+      	IF MyChildWindow..ReturnedValue <> "" THEN	
+      		ExtractInto(MyChildWindow..ReturnedValue)
+      	END
+      END
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1-
+      
+     type : 11
+   -
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : ListElements
+     procedure_id : 1760398453437284896
+     type_code : 14
+     code : |1-
+      // Summary: Lists the folders and the archives found in a folder
+      // Syntax:
+      //ListElements ([<sRoot> is string [, <sArchive> is string]])
+      //
+      // Parameters:
+      //	sRoot (UNICODE string - default value=""): Root of the disk from which the elements must be listed
+      // 	sArchive (UNICODE string - default value=""): Name of the current archive
+      // Return value:
+      // 	None
+      //
+      PROCEDURE ListElements(LOCAL sRoot is string = "", LOCAL sArchive is string = "")
+      
+      sListDirectories	is string
+      sListFiles		is string
+      sDirectory			is string
+      sFile			is string
+      sParent				is string
+      sZIPInfo			is string
+      nNbFiles			is int
+      sListElements		is string
+      arrElements			is array of strings
+      arrFolders			is array of strings
+      sElement			is string
+      sFolder			is string
+      nDepth			is int
+      sInfoCompFile	is string
+      nElementDepth	is int
+      
+      // Fills
+      Trace("Retrieving the list of files and folders of: " + (["("] + sArchive + [") "]) + (sRoot = "" ? "<Root>" ELSE sRoot))
+      
+      IF sArchive = "" THEN
+      	CURRENT_DIR = sRoot
+      	STC_PATH = (sRoot = "" ? "No current folder" ELSE [SEPARATOR] + Replace(Replace(sRoot, ARCHIVES, "Archives"), SysDirStorageCard(), "SDCARD"))
+      ELSE
+      	STC_PATH = [SEPARATOR] + Replace(Replace(ARCHIVE_CURRENT, ARCHIVES, "Archives"), SysDirStorageCard(), "SDCARD") + [SEPARATOR] + sRoot
+      END
+      
+      // Clears the list
+      LooperDeleteAll(LOOP_FILES)
+      
+      // If no current archive
+      IF sArchive = "" THEN
+      	
+      	// If we are positioned at the root
+      	IF sRoot = "" THEN
+      		
+      		Trace("Enabling the root folders...")
+      		
+      		// Folder of the application
+      		LooperAddLine(LOOP_FILES, IMG_EXAMPLE, "Archives", ARCHIVES, frDirectory, "")
+      		
+      		IF NOT InSimulatorMode THEN
+      			// If a SDCARD is enabled
+      			IF SysStatusStorageCard() <> sysCardUnavailable THEN
+      				// Add the root of the system
+      				LooperAddLine(LOOP_FILES, IMG_SDCARD, "SDCARD", SysDirStorageCard(), frDirectory, "")
+      			ELSE
+      				// Add the root of the system
+      				LooperAddLine(LOOP_FILES, IMG_SYSTEM, "System", "/", frDirectory, "")
+      			END			
+      		END
+      	ELSE
+      		
+      		// Parent path
+      		IF sRoot = SysDirStorageCard() _OR_ sRoot = "/" _OR_ sRoot = ARCHIVES THEN
+      			sParent = ""
+      		ELSE
+      			sParent = sRoot[[TO PositionOccurrence(sRoot, SEPARATOR, lastRank) - 1]]
+      		END
+      		Trace("Parent folder: " + (sParent = "" ? "<Root>" ELSE sParent))
+      		
+      		// Lists the directories
+      		Trace("Finding folders from: " + sRoot)
+      		sListDirectories = fListDirectory(sRoot, frNotRecursive)
+      		Trace(StringCount(sListDirectories, CR) + " listed folder(s)")
+      		
+      		// Lists the files
+      		Trace("Finding ZIP archives from: " + sRoot)
+      		sListFiles	  = fListFile(sRoot + [SEPARATOR] + "*.zip", frNotRecursive)
+      		Trace(StringCount(sListFiles, CR) + " listed ZIP archive(s)")
+      		
+      		// If the folder is empty
+      		IF sListFiles = "" _AND_ sListDirectories = "" THEN
+      			
+      			// Displays a toast
+      			ToastDisplay("The folder contains no archive", toastShort, vaMiddle, haCenter)			
+      			
+      			// Go back to the parent
+      			ListElements(sParent)
+      		ELSE
+      			
+      			// For each directory
+      			FOR EACH string sDirectory of sListDirectories SEPARATED BY CR		
+      				LooperAddLine(LOOP_FILES, IMG_FOLDER, ExtractString(sDirectory, lastRank, SEPARATOR), sDirectory, frDirectory, "")
+      			END
+      			
+      			// For each file
+      			FOR EACH string sFile of sListFiles SEPARATED BY CR
+      				
+      				// Opens the archive
+      				IF zipOpen("zipTempArchive", sFile, zipRead) = 0 THEN
+      					
+      					// Retrieves the number of the files found in the archive
+      					nNbFiles = zipNbFile("zipTempArchive")
+      					
+      					// Displays the size and the number of the files found in the archive
+      					sZIPInfo = LengthToString(zipSize("zipTempArchive", True)) + CR + 
+      					NumToString(nNbFiles, "dS") + " file" + (nNbFiles > 1 ? "s" ELSE "")
+      					
+      					// Closes the archive
+      					zipClose("zipTempArchive")
+      				ELSE
+      					sZIPInfo = "Invalid archive"
+      				END
+      				
+      				LooperAddLine(LOOP_FILES, IMG_ARCHIVE, fExtractPath(sFile, fFileName + fExtension), sFile, frFile, sZIPInfo)
+      			END
+      			
+      			// Adds an element to move up in the tree structure
+      			LooperInsertLine(LOOP_FILES, 1, IMG_PARENT_FOLDER, "", sParent, frDirectory, "")
+      		END
+      	END
+      ELSE
+      	
+      	IF sRoot = "" THEN
+      		
+      		// Adds an element to move up in the tree structure
+      		LooperAddLine(LOOP_FILES, IMG_PARENT_FOLDER, "", UncompleteDir(fExtractPath(ARCHIVE_CURRENT, fDrive + fDirectory)), frDirectory, "")				
+      		
+      		// Stores the archive files
+      		IF ARCHIVE_FILES..Occurrence = 0 THEN
+      			
+      			// Lists the files found in the archive
+      			sListElements = zipListFile("zipArchive")
+      			// Transforms the list into table
+      			StringToArray(sListElements, arrElements, CR)
+      			// Sorts the array
+      			Sort(arrElements, asAscending)
+      			
+      			FOR EACH sElement of arrElements
+      				
+      				// Extracts the element folder
+      				sFolder = UncompleteDir(fExtractPath(sElement, fDrive + fDirectory))
+      				
+      				// If the folder is empty, we are positioned at the root of the archive, therefore we ignore this folder
+      				IF sFolder <> "" THEN					
+      					// If the folder was not stored yet
+      					IF Seek(arrFolders, asLinear, sFolder) < 1 THEN
+      						Add(arrFolders, StringCount(sFolder, SEPARATOR) + ";" + frZipDirectory + ";" + sFolder)
+      					END										
+      					
+      					// Adds the file from the folder
+      					Add(ARCHIVE_FILES, StringCount(sFolder + [SEPARATOR], SEPARATOR) + ";" + frZipFile + ";" + sElement)
+      				ELSE
+      					// Adds the file of the root
+      					Add(ARCHIVE_FILES, "0;" + frZipFile + ";" + sElement)
+      				END
+      				
+      			END
+      			
+      			// Inserts the folders at the beginning of the list
+      			Insert(ARCHIVE_FILES, 1, arrFolders)
+      			Sort(ARCHIVE_FILES, asAscending)
+      		END
+      		
+      		// No depth
+      		nDepth = 0
+      	ELSE
+      		// Requested level of depth
+      		nDepth	= StringCount(sRoot, SEPARATOR) + 1
+      		
+      		// Adds an element to move up in the tree structure
+      		sParent = sRoot[[TO PositionOccurrence(sRoot, SEPARATOR, lastRank) - 1]]
+      		LooperAddLine(LOOP_FILES, IMG_PARENT_FOLDER, "", sParent, frZipDirectory, "")				
+      	END
+      	
+      	// Lists the folders at the root
+      	FOR EACH sElement of ARCHIVE_FILES
+      		
+      		nElementDepth = Val(ExtractString(sElement, 1, ";"))
+      		
+      		// If the listed element does not belong to the requested level of depth
+      		IF nElementDepth > nDepth THEN
+      			BREAK
+      		ELSE IF nElementDepth < nDepth THEN
+      			CONTINUE
+      		END
+      		
+      		// According to the type of the element
+      		SWITCH Val(ExtractString(sElement, 2, ";"))
+      		
+      			// It's a directory
+      			CASE frZipDirectory
+      				
+      				sDirectory = ExtractString(sElement, lastRank, ";")
+      				
+      				// Checks whether the directory is found in the current root
+      				IF NOT sDirectory[[TO PositionOccurrence(sDirectory, SEPARATOR, lastRank) - 1]] = sRoot THEN
+      					CONTINUE
+      				END
+      				
+      				LooperAddLine(LOOP_FILES, IMG_FOLDER, ExtractString(sDirectory, lastRank, SEPARATOR), sDirectory, frZipDirectory, "")
+      				
+      			// It's a file
+      			CASE frZipFile
+      				
+      				sFile  = ExtractString(sElement, lastRank, ";")
+      				
+      				// Checks whether the file is found in the current root
+      				IF NOT UncompleteDir(fExtractPath(sFile, fDrive + fDirectory)) = sRoot THEN
+      					CONTINUE
+      				END
+      				
+      				sInfoCompFile = zipInfoFile(sArchive, sFile)					
+      				sZIPInfo = LengthToString(Val(ExtractString(sInfoCompFile, 2))) + CR +
+      				"Ratio: " + Round((Val(ExtractString(sInfoCompFile, 3)) * 100 / max(1, Val(ExtractString(sInfoCompFile, 2)))), 1) + "%"
+      				
+      				LooperAddLine(LOOP_FILES, IMG_FILE, fExtractPath(sFile, fFileName + fExtension), sFile, frZipFile, sZIPInfo)
+      		END
+      	END			
+      	
+      	
+      END
+     type : 458752
+   -
+     name : ExtractInto
+     procedure_id : 1760398453437350432
+     type_code : 14
+     code : |1-
+      // Summary: Extracts the archive that is currently opened into the specified directory
+      // Syntax:
+      //ExtractInto (<sExtractionDir> is string)
+      //
+      // Parameters:
+      //	sExtractionDir (UNICODE string): Directory into which the archive will be extracted
+      // Return value:
+      // 	None
+      //
+      PROCEDURE ExtractInto(LOCAL sExtractionDir is string)
+      
+      nSubscript 			is int
+      nErr				is int
+      sExtractionDirBkp	is string = sExtractionDir
+      
+      EXTRACTIONDIR = ""
+      OpenMobileWindow(WIN_PROGBAR_EXTRACTION)
+      
+      // Full extraction of the archive
+      IF ATT_TYPE = frFile THEN
+      	
+      	Trace("Extraction of " + ATT_FULLPATH + " in: " + sExtractionDirBkp)
+      	nErr = zipOpen("zipTempArchive", ATT_FULLPATH, zipRead)
+      	IF nErr = 0 THEN
+      		
+      		HourGlass(True)
+      		
+      		WIN_PROGBAR_EXTRACTION.PROGBAR_EXTRACTION = 0
+      		WIN_PROGBAR_EXTRACTION.PROGBAR_EXTRACTION..MaxValue = zipNbFile("zipTempArchive")
+      		WIN_PROGBAR_EXTRACTION.PROGBAR_EXTRACTION..Visible = True
+      		
+      		FOR i = 1 _TO_ WIN_PROGBAR_EXTRACTION.PROGBAR_EXTRACTION..MaxValue
+      			
+      			// Informs about the file currently extracted
+      			WIN_PROGBAR_EXTRACTION.STC_INFO_EXTRACTION = "Extract the file" + CR + ExtractString(zipInfoFile("zipTempArchive", i), 1) + "..."
+      			
+      			// Checks out the file
+      			Trace("Extraction of " + ExtractString(zipInfoFile("zipTempArchive", i), 1) + " in: " + sExtractionDirBkp)
+      			nErr = zipExtractFile("zipTempArchive", i, sExtractionDirBkp)
+      			IF nErr <> 0 THEN
+      				Error("Unable to check out the file", zipMsgError(nErr))
+      				BREAK
+      			END
+      			WIN_PROGBAR_EXTRACTION.PROGBAR_EXTRACTION ++
+      		END
+      		
+      		WIN_PROGBAR_EXTRACTION.STC_INFO_EXTRACTION = ""
+      		zipClose("zipTempArchive")
+      		
+      		HourGlass(False)
+      	ELSE
+      		Error("Unable to extract the archive", zipMsgError(nErr))
+      	END		
+      	
+      	// Extract a file from the archive
+      ELSE IF ATT_TYPE = frZipFile THEN
+      	
+      	HourGlass(True)
+      	
+      	// Informs about the file currently extracted
+      	Trace("Extraction of " + ATT_FULLPATH + " in: " + sExtractionDirBkp)
+      	WIN_PROGBAR_EXTRACTION.STC_INFO_EXTRACTION = "Extract the file" + CR + ATT_FULLPATH + "..."
+      	
+      	nErr = zipExtractFile(ARCHIVE_CURRENT, ATT_FULLPATH, sExtractionDirBkp)
+      	IF nErr <> 0 THEN Error("Unable to check out the file", zipMsgError(nErr))
+      	
+      	WIN_PROGBAR_EXTRACTION.STC_INFO_EXTRACTION = ""
+      	HourGlass(False)
+      	
+      	// Extract a full directory from the archive
+      ELSE IF ATT_TYPE = frZipDirectory THEN
+      	
+      	HourGlass(True)
+      	
+      	Trace("Extraction of " + ATT_FULLPATH + " in: " + sExtractionDirBkp)
+      	
+      	// First file of the directory
+      	nSubscript = zipFindFile(ARCHIVE_CURRENT, ATT_FULLPATH, False, 1)
+      	WHILE nSubscript > 0
+      		
+      		// Informs about the file currently extracted
+      		WIN_PROGBAR_EXTRACTION.STC_INFO_EXTRACTION = "Extract the file" + CR + ExtractString(zipInfoFile(ARCHIVE_CURRENT, nSubscript), 1) + "..."
+      		
+      		// Checks out the file
+      		Trace("Extraction of " + ExtractString(zipInfoFile(ARCHIVE_CURRENT, nSubscript), 1) + " in: " + sExtractionDirBkp + ATT_CAPTION)
+      		nErr = zipExtractFile(ARCHIVE_CURRENT, nSubscript, sExtractionDirBkp + [SEPARATOR] + ATT_CAPTION)
+      		IF nErr <> 0 THEN
+      			Error("Unable to check out the file " + ExtractString(zipInfoFile(ARCHIVE_CURRENT, nSubscript), 1), zipMsgError(nErr))
+      			BREAK
+      		END
+      		
+      		// Next file
+      		nSubscript = zipFindFile(ARCHIVE_CURRENT, ATT_FULLPATH, False, nSubscript + 1)
+      	END
+      	
+      	WIN_PROGBAR_EXTRACTION.STC_INFO_EXTRACTION = ""
+      	HourGlass(False)
+      	
+      END
+      
+      Trace("End of extraction")
+      Close(WIN_PROGBAR_EXTRACTION)
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f19531c000406e6
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
